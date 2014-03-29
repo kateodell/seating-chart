@@ -4,10 +4,15 @@
 #Assignment definition: Model for WEdding tables app
 
 import sqlite3
+import json
 #import traceback
 
 DB = None
 CONN = None
+
+#Get event ID from FB dummy object
+f = app/event.json
+parsed_json = json.load(f) 
 
 class Attendee(object):
     def __init__(self, id, first_name, last_name, photo, hometown):
