@@ -1,0 +1,57 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'jasmine' ]
+2 info using npm@1.3.8
+3 info using node@v0.10.18
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'jasmine', null ]
+6 verbose cache add name=undefined spec="jasmine" args=["jasmine",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'jasmine',
+7 verbose parsed url   path: 'jasmine',
+7 verbose parsed url   href: 'jasmine' }
+8 silly lockFile 5bfd08bd-jasmine jasmine
+9 verbose lock jasmine /Users/kate/.npm/5bfd08bd-jasmine.lock
+10 silly lockFile 5bfd08bd-jasmine jasmine
+11 silly lockFile 5bfd08bd-jasmine jasmine
+12 verbose addNamed [ 'jasmine', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile fdd358a6-jasmine jasmine@
+15 verbose lock jasmine@ /Users/kate/.npm/fdd358a6-jasmine.lock
+16 silly addNameRange { name: 'jasmine', range: '*', hasData: false }
+17 verbose url raw jasmine
+18 verbose url resolving [ 'https://registry.npmjs.org/', './jasmine' ]
+19 verbose url resolved https://registry.npmjs.org/jasmine
+20 info trying registry request attempt 1 at 12:34:00
+21 http GET https://registry.npmjs.org/jasmine
+22 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+23 info trying registry request attempt 2 at 12:34:24
+24 http GET https://registry.npmjs.org/jasmine
+25 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+26 info trying registry request attempt 3 at 12:35:24
+27 http GET https://registry.npmjs.org/jasmine
+28 silly lockFile fdd358a6-jasmine jasmine@
+29 silly lockFile fdd358a6-jasmine jasmine@
+30 error network getaddrinfo ENOTFOUND
+30 error network This is most likely not a problem with npm itself
+30 error network and is related to network connectivity.
+30 error network In most cases you are behind a proxy or have bad network settings.
+30 error network
+30 error network If you are behind a proxy, please make sure that the
+30 error network 'proxy' config is set properly.  See: 'npm help config'
+31 error System Darwin 13.1.0
+32 error command "node" "/usr/local/bin/npm" "install" "jasmine"
+33 error cwd /Users/kate/code/seating-chart
+34 error node -v v0.10.18
+35 error npm -v 1.3.8
+36 error syscall getaddrinfo
+37 error code ENOTFOUND
+38 error errno ENOTFOUND
+39 verbose exit [ 1, true ]
