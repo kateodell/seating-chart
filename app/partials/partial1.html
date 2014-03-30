@@ -3,4 +3,10 @@
       {{guest}}
     </li>
   </ul> -->
-<h1>this is some stuff</h1>
+<h1>Seating Chart for: {{eventInfo.name}}</h1>
+
+<h2>Attendees:</h2>
+
+<ul>
+    <li ng-repeat="guest in attendees"><img ng-src="{{guest.picture}}"/>{{guest.name}}</li>
+</ul>
